@@ -1,28 +1,28 @@
 const productos = [
     {
         nombre: "Cerveza Artesanal 'Cerveza de barrio' 500ml",
-        imagen: "Cerveza Artesanal 'Cerveza de barrio' 500ml",
+        // imagen: "Cerveza Artesanal 'Cerveza de barrio' 500ml",
         precio: 130,
         categoria_id: 1,
         id: 1
     },
     {
         nombre: "Cerveza Artesanal 'Cerveza de barrio' PACK x2 500ml",
-        imagen: "Cerveza Artesanal 'Cerveza de barrio'PACK x2 500ml",
+        // imagen: "Cerveza Artesanal 'Cerveza de barrio'PACK x2 500ml",
         precio: 350,
         categoria_id: 1,
         id: 2
     },
     {
         nombre: "Cerveza Artesanal 'Cerveza de barrio' 1Lt",
-        imagen: "Cerveza Artesanal 'Cerveza de barrio' 1Lt",
+        // imagen: "Cerveza Artesanal 'Cerveza de barrio' 1Lt",
         precio: 200,
         categoria_id: 1,
         id: 3
     },
     {
         nombre: "Cerveza Brahma x1",
-        imagen: "Cerveza Brahma x1",
+        // imagen: "Cerveza Brahma x1",
         precio: 55,
         categoria_id: 1,
         id: 4
@@ -3107,292 +3107,292 @@ const productos = [
         "id": 517
     },
     {
-    "id": 518,
-    "categoria_id": 13,
-    "nombre": "Vinos Santa Julia Reserva Malbec",
-    "precio": 745
+        "id": 518,
+        "categoria_id": 13,
+        "nombre": "Vinos Santa Julia Reserva Malbec",
+        "precio": 745
     },
     {
-    "id": 519,
-    "categoria_id": 13,
-    "nombre": "Vinos Stagnari Blue",
-    "precio": 350
+        "id": 519,
+        "categoria_id": 13,
+        "nombre": "Vinos Stagnari Blue",
+        "precio": 350
     },
     {
-    "id": 520,
-    "categoria_id": 13,
-    "nombre": "Vinos Stagnari Blush",
-    "precio": 350
+        "id": 520,
+        "categoria_id": 13,
+        "nombre": "Vinos Stagnari Blush",
+        "precio": 350
     },
     {
-    "id": 521,
-    "categoria_id": 13,
-    "nombre": "Vinos Stagnari Cabernet 1x1",
-    "precio": 550
+        "id": 521,
+        "categoria_id": 13,
+        "nombre": "Vinos Stagnari Cabernet 1x1",
+        "precio": 550
     },
     {
-    "id": 522,
-    "categoria_id": 13,
-    "nombre": "Vinos Stagnari Cabernet Premier",
-    "precio": 340
+        "id": 522,
+        "categoria_id": 13,
+        "nombre": "Vinos Stagnari Cabernet Premier",
+        "precio": 340
     },
     {
-    "id": 523,
-    "categoria_id": 13,
-    "nombre": "Vinos Stagnari Dayman",
-    "precio": 970
+        "id": 523,
+        "categoria_id": 13,
+        "nombre": "Vinos Stagnari Dayman",
+        "precio": 970
     },
     {
-    "id": 524,
-    "categoria_id": 13,
-    "nombre": "Vinos Stagnari Dinastía Tinto",
-    "precio": 1380
+        "id": 524,
+        "categoria_id": 13,
+        "nombre": "Vinos Stagnari Dinastía Tinto",
+        "precio": 1380
     },
     {
-    "id": 525,
-    "categoria_id": 13,
-    "nombre": "Vinos Stagnari Gewurztraminer",
-    "precio": 375
+        "id": 525,
+        "categoria_id": 13,
+        "nombre": "Vinos Stagnari Gewurztraminer",
+        "precio": 375
     },
     {
-    "id": 526,
-    "categoria_id": 13,
-    "nombre": "Vinos Stagnari Gran Guarda Tannat Cabernet",
-    "precio": 360
+        "id": 526,
+        "categoria_id": 13,
+        "nombre": "Vinos Stagnari Gran Guarda Tannat Cabernet",
+        "precio": 360
     },
     {
-    "id": 527,
-    "categoria_id": 13,
-    "nombre": "Vinos Stagnari La Puebla Chardonnay",
-    "precio": 360
+        "id": 527,
+        "categoria_id": 13,
+        "nombre": "Vinos Stagnari La Puebla Chardonnay",
+        "precio": 360
     },
     {
-    "id": 528,
-    "categoria_id": 13,
-    "nombre": "Vinos Stagnari La Puebla Marselan",
-    "precio": 360
+        "id": 528,
+        "categoria_id": 13,
+        "nombre": "Vinos Stagnari La Puebla Marselan",
+        "precio": 360
     },
     {
-    "id": 529,
-    "categoria_id": 13,
-    "nombre": "Vinos Stagnari La Puebla Syrah",
-    "precio": 360
+        "id": 529,
+        "categoria_id": 13,
+        "nombre": "Vinos Stagnari La Puebla Syrah",
+        "precio": 360
     },
     {
-    "id": 530,
-    "categoria_id": 13,
-    "nombre": "Vinos Stagnari para compartir 2lts cabernet y tannat",
-    "precio": 360
+        "id": 530,
+        "categoria_id": 13,
+        "nombre": "Vinos Stagnari para compartir 2lts cabernet y tannat",
+        "precio": 360
     },
     {
-    "id": 531,
-    "categoria_id": 13,
-    "nombre": "Vinos Stagnari Pura Sangre",
-    "precio": 410
+        "id": 531,
+        "categoria_id": 13,
+        "nombre": "Vinos Stagnari Pura Sangre",
+        "precio": 410
     },
     {
-    "id": 532,
-    "categoria_id": 13,
-    "nombre": "Vinos Stagnari Tannat Añejo 2lts",
-    "precio": 380
+        "id": 532,
+        "categoria_id": 13,
+        "nombre": "Vinos Stagnari Tannat Añejo 2lts",
+        "precio": 380
     },
     {
-    "id": 533,
-    "categoria_id": 13,
-    "nombre": "Vinos Stagnari Tannat Añejo 3lts",
-    "precio": 540
+        "id": 533,
+        "categoria_id": 13,
+        "nombre": "Vinos Stagnari Tannat Añejo 3lts",
+        "precio": 540
     },
     {
-    "id": 534,
-    "categoria_id": 13,
-    "nombre": "Vinos Stagnari Tannat Premier",
-    "precio": 340
+        "id": 534,
+        "categoria_id": 13,
+        "nombre": "Vinos Stagnari Tannat Premier",
+        "precio": 340
     },
     {
-    "id": 535,
-    "categoria_id": 13,
-    "nombre": "Vinos Stagnari Tannat Viejo",
-    "precio": 550
+        "id": 535,
+        "categoria_id": 13,
+        "nombre": "Vinos Stagnari Tannat Viejo",
+        "precio": 550
     },
     {
-    "id": 536,
-    "categoria_id": 13,
-    "nombre": "Vinos Tio Pepe Jerez",
-    "precio": 1000
+        "id": 536,
+        "categoria_id": 13,
+        "nombre": "Vinos Tio Pepe Jerez",
+        "precio": 1000
     },
     {
-    "id": 537,
-    "categoria_id": 13,
-    "nombre": "Vinos Trapiche Cabernet",
-    "precio": 250
+        "id": 537,
+        "categoria_id": 13,
+        "nombre": "Vinos Trapiche Cabernet",
+        "precio": 250
     },
     {
-    "id": 538,
-    "categoria_id": 13,
-    "nombre": "Vinos Trapiche Malbec",
-    "precio": 250
+        "id": 538,
+        "categoria_id": 13,
+        "nombre": "Vinos Trapiche Malbec",
+        "precio": 250
     },
     {
-    "id": 539,
-    "categoria_id": 13,
-    "nombre": "Vinos Trapiche Reserva cabernet",
-    "precio": 450
+        "id": 539,
+        "categoria_id": 13,
+        "nombre": "Vinos Trapiche Reserva cabernet",
+        "precio": 450
     },
     {
-    "id": 540,
-    "categoria_id": 13,
-    "nombre": "Vinos Trapiche Reserva malbec",
-    "precio": 450
+        "id": 540,
+        "categoria_id": 13,
+        "nombre": "Vinos Trapiche Reserva malbec",
+        "precio": 450
     },
     {
-    "id": 541,
-    "categoria_id": 13,
-    "nombre": "Vinos Trapiche Sauvignon Blanc",
-    "precio": 250
+        "id": 541,
+        "categoria_id": 13,
+        "nombre": "Vinos Trapiche Sauvignon Blanc",
+        "precio": 250
     },
     {
-    "id": 542,
-    "categoria_id": 13,
-    "nombre": "Vinos Traversa Cabernet Franc",
-    "precio": 200
+        "id": 542,
+        "categoria_id": 13,
+        "nombre": "Vinos Traversa Cabernet Franc",
+        "precio": 200
     },
     {
-    "id": 543,
-    "categoria_id": 13,
-    "nombre": "Vinos Traversa Cabernet Roble",
-    "precio": 240
+        "id": 543,
+        "categoria_id": 13,
+        "nombre": "Vinos Traversa Cabernet Roble",
+        "precio": 240
     },
     {
-    "id": 544,
-    "categoria_id": 13,
-    "nombre": "Vinos Traversa Cabernet Sauvignon",
-    "precio": 200
+        "id": 544,
+        "categoria_id": 13,
+        "nombre": "Vinos Traversa Cabernet Sauvignon",
+        "precio": 200
     },
     {
-    "id": 545,
-    "categoria_id": 13,
-    "nombre": "Vinos Traversa Chardonnay",
-    "precio": 240
+        "id": 545,
+        "categoria_id": 13,
+        "nombre": "Vinos Traversa Chardonnay",
+        "precio": 240
     },
     {
-    "id": 546,
-    "categoria_id": 13,
-    "nombre": "Vinos Traversa con copa",
-    "precio": 470
+        "id": 546,
+        "categoria_id": 13,
+        "nombre": "Vinos Traversa con copa",
+        "precio": 470
     },
     {
-    "id": 547,
-    "categoria_id": 13,
-    "nombre": "Vinos Traversa Sauvignon Blanc",
-    "precio": 200
+        "id": 547,
+        "categoria_id": 13,
+        "nombre": "Vinos Traversa Sauvignon Blanc",
+        "precio": 200
     },
     {
-    "id": 548,
-    "categoria_id": 13,
-    "nombre": "Vinos Traversa Tannat",
-    "precio": 200
+        "id": 548,
+        "categoria_id": 13,
+        "nombre": "Vinos Traversa Tannat",
+        "precio": 200
     },
     {
-    "id": 549,
-    "categoria_id": 13,
-    "nombre": "Vinos Traversa Tannat Merlot",
-    "precio": 200
+        "id": 549,
+        "categoria_id": 13,
+        "nombre": "Vinos Traversa Tannat Merlot",
+        "precio": 200
     },
     {
-    "id": 550,
-    "categoria_id": 13,
-    "nombre": "Vinos Traversa Tannat Roble",
-    "precio": 240
+        "id": 550,
+        "categoria_id": 13,
+        "nombre": "Vinos Traversa Tannat Roble",
+        "precio": 240
     },
     {
-    "id": 551,
-    "categoria_id": 13,
-    "nombre": "Vinos Vino de pico Santa Rosa",
-    "precio": 120
+        "id": 551,
+        "categoria_id": 13,
+        "nombre": "Vinos Vino de pico Santa Rosa",
+        "precio": 120
     },
     {
-    "id": 552,
-    "categoria_id": 13,
-    "nombre": "Vinos Viña las brujas Cabernet",
-    "precio": 295
+        "id": 552,
+        "categoria_id": 13,
+        "nombre": "Vinos Viña las brujas Cabernet",
+        "precio": 295
     },
     {
-    "id": 553,
-    "categoria_id": 13,
-    "nombre": "Vinos Viña las brujas Malbec",
-    "precio": 295
+        "id": 553,
+        "categoria_id": 13,
+        "nombre": "Vinos Viña las brujas Malbec",
+        "precio": 295
     },
     {
-    "id": 554,
-    "categoria_id": 13,
-    "nombre": "Vinos Viña las moras Sauvignon Blanc",
-    "precio": 295
+        "id": 554,
+        "categoria_id": 13,
+        "nombre": "Vinos Viña las moras Sauvignon Blanc",
+        "precio": 295
     },
     {
-    "id": 555,
-    "categoria_id": 13,
-    "nombre": "Vinos Bertolini Suavignon blanc",
-    "precio": 299
+        "id": 555,
+        "categoria_id": 13,
+        "nombre": "Vinos Bertolini Suavignon blanc",
+        "precio": 299
     },
     {
-    "id": 556,
-    "categoria_id": 13,
-    "nombre": "Vinos Quinta Santero Marselan Roble",
-    "precio": 420
+        "id": 556,
+        "categoria_id": 13,
+        "nombre": "Vinos Quinta Santero Marselan Roble",
+        "precio": 420
     },
     {
-    "id": 557,
-    "categoria_id": 13,
-    "nombre": "Vinos Quinta Santero Tanat",
-    "precio": 260
+        "id": 557,
+        "categoria_id": 13,
+        "nombre": "Vinos Quinta Santero Tanat",
+        "precio": 260
     },
     {
-    "id": 558,
-    "categoria_id": 13,
-    "nombre": "Vinos Quinta Santero Tinto Marselan",
-    "precio": 260
+        "id": 558,
+        "categoria_id": 13,
+        "nombre": "Vinos Quinta Santero Tinto Marselan",
+        "precio": 260
     },
     {
-    "id": 559,
-    "categoria_id": 13,
-    "nombre": "Vinos Santa Rosa 473ml x1",
-    "precio": 110
+        "id": 559,
+        "categoria_id": 13,
+        "nombre": "Vinos Santa Rosa 473ml x1",
+        "precio": 110
     },
     {
-    "id": 560,
-    "categoria_id": 13,
-    "nombre": "Vinos Santo Rosa 473ml x6",
-    "precio": 600
+        "id": 560,
+        "categoria_id": 13,
+        "nombre": "Vinos Santo Rosa 473ml x6",
+        "precio": 600
     },
     {
-    "id": 561,
-    "categoria_id": 13,
-    "nombre": "Vinos Zenit Blanco lorena",
-    "precio": 290
+        "id": 561,
+        "categoria_id": 13,
+        "nombre": "Vinos Zenit Blanco lorena",
+        "precio": 290
     },
     {
-    "id": 562,
-    "categoria_id": 13,
-    "nombre": "Vinos Zenit Frutos del bosque",
-    "precio": 260
+        "id": 562,
+        "categoria_id": 13,
+        "nombre": "Vinos Zenit Frutos del bosque",
+        "precio": 260
     },
     {
-    "id": 563,
-    "categoria_id": 13,
-    "nombre": "Vinos Zenit lata 350 ml",
-    "precio": 150
+        "id": 563,
+        "categoria_id": 13,
+        "nombre": "Vinos Zenit lata 350 ml",
+        "precio": 150
     },
     {
-    "id": 564,
-    "categoria_id": 13,
-    "nombre": "Vinos Zenit mango",
-    "precio": 260
+        "id": 564,
+        "categoria_id": 13,
+        "nombre": "Vinos Zenit mango",
+        "precio": 260
     },
     {
-    "id": 565,
-    "categoria_id": 13,
-    "nombre": "Vinos Zenit Maracuya",
-    "precio": 260
+        "id": 565,
+        "categoria_id": 13,
+        "nombre": "Vinos Zenit Maracuya",
+        "precio": 260
     },
     {
         "id": 566,
