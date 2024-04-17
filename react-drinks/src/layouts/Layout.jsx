@@ -27,13 +27,14 @@ export default function Layout() {
   return (
     <>
       <div className='md:flex'>
-        <Sidebar /> 
+        <Sidebar />
 
-        <main className='md:ml-72 flex-1 h-screen overflow-y-auto'>
+        <main className='md:ml-64 md:mr-64 w-full h-screen overflow-y-auto'>
           <Outlet />
         </main>
 
-        <Resumen /> 
+        <Resumen />
+
       </div>
 
       <Modal isOpen={modal} style={customStyles}>

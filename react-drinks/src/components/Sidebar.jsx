@@ -7,7 +7,7 @@ export default function Sidebar() {
     const { categorias } = useDrinks()
 
   return (
-    <aside className="md:w-72 fixed h-full overflow-y-auto">
+    <aside className="md:w-64 md:fixed h-full overflow-y-auto">
         <div className="p-4">
             <Logo textSize={"6xl"} />
         </div>

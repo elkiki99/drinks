@@ -1,7 +1,7 @@
 import { createRef, useState} from 'react'
 import { Link } from 'react-router-dom'
-import clienteAxios from '../config/axios'
 import Alerta from '../components/Alerta'
+import { useAuth } from '../hooks/useAuth'
 
 export default function Registro() {
 
@@ -11,6 +11,7 @@ export default function Registro() {
     const passwordConfirmationRef = createRef();
 
     const [errores, setErrores] = useState([])
+    const { registro } = useAuth({middleware: 'guest', url: '/'})
 
     const handleSubmit = async e => {
       e.preventDefault();
@@ -22,19 +23,14 @@ export default function Registro() {
         password_confirmation: passwordConfirmationRef.current.value
       }
       
-      try {
-        const respuesta = await clienteAxios.post('/api/registro', datos)
-        console.log(respuesta)
-      } catch (error) {
-        setErrores(Object.values(error.response.data.errors))
-      }
+      registro(datos, setErrores)
     }
 
     return (
       <>
         <h1 className="text-4xl text-center font-bold mt-20">Crea tu cuenta</h1>
         
-        <div className="shadow-md max-w-4xl mx-auto rounded-md mt-10 px-10 py-10 bg-white m-10">
+        <div className="shadow-md md:max-w-2xl max-w-ful mx-auto rounded-md mt-10 px-10 py-10 bg-white m-10">
             <form
               onSubmit={handleSubmit}
               noValidate
