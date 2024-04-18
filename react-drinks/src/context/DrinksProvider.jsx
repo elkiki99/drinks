@@ -1,7 +1,6 @@
 
 import { createContext, useState, useEffect } from 'react'
 import { toast } from 'react-toastify'
-import { categorias as categoriasDB } from '../data/categorias'
 import clienteAxios from '../config/axios';
 
 const DrinksContext = createContext();
@@ -72,6 +71,41 @@ const DrinksProvider = ({children}) => {
         toast.success('Producto eliminado')
     }
 
+    const handleSubmitNuevaOrden = async (logout) => {
+
+        const token = localStorage.getItem('AUTH_TOKEN')
+        
+        try {
+            const { data } = await clienteAxios.post('/api/pedidos', 
+            {
+                total,
+                productos: pedido.map(producto => {
+                    return {
+                        id: producto.id,
+                        cantidad: producto.cantidad
+                    }
+                })
+            }, 
+            {
+                headers: {
+                    Authorization: `Bearer ${token}`
+                }
+            })
+            toast.success(data.message);
+            setTimeout(() => {
+                setPedido([])
+            }, 1000);
+
+            setTimeout(() => {
+                localStorage.removeItem('AUTH_TOKEN');
+                logout();
+            }, 3000);
+
+        } catch (error) {
+            console.log(error)
+        }
+    }
+
     return (
         <DrinksContext.Provider
             value={{
@@ -86,7 +120,8 @@ const DrinksProvider = ({children}) => {
                 handleAgregarPedido,
                 handleEditarCantidad,
                 handleEliminarProductoPedido,
-                total
+                total,
+                handleSubmitNuevaOrden
             }}
             
         >{children}</DrinksContext.Provider>
