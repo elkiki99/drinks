@@ -15,7 +15,6 @@ export default function Resumen() {
     e.preventDefault();
 
     handleSubmitNuevaOrden( logout );
-
   }
 
   return (
@@ -58,18 +57,17 @@ export default function Resumen() {
         </div>
       </form>
 
-      {/* <div className="my-5 w-full">
-        <button
-          type="button"
-          className={`${comprobarPedido() ? "bg-red-300" : "bg-red-600 hover:bg-red-800 cursor-pointer"}
-          px-5 py-2 rounded font-bold text-white text-center w-full`}
-          onClick={logout}
-          disabled={comprobarPedido()}
-        >
-          Cancelar pedido
-        </button> */}
-      {/* </div> */}
-
+      {user ? (
+          <div className="my-5 w-full">
+          <button
+            type="button"
+            className="bg-red-600 hover:bg-red-800 cursor-pointer px-5 py-2 rounded font-bold text-white text-center w-full"
+            onClick={logout}
+          >
+            Cerrar sesión
+          </button>
+        </div>
+        ) : null}
       
       {user ? null : (
         <p className="py-10 md:text-start text-center"><a className="text-green-500" href="/auth/login">Inicia sesión</a> para completar la compra</p>

@@ -1,10 +1,10 @@
 import { formatearDinero } from '../helpers'
 import useDrinks from '../hooks/useDrinks';
 
-export default function Producto(props) {
+export default function Producto({producto, botonAgregar = false, botonDisponible = false}) {
 
-    const { producto, handleClickModal, handleSetProducto } = useDrinks()
-    const { nombre, categoria_id, precio, imagen } = props.producto;
+    const { handleClickModal, handleSetProducto, handleClickProductoAgotado } = useDrinks()
+    const { nombre, precio, imagen } = producto;
 
     return (
       <>
@@ -20,15 +20,25 @@ export default function Producto(props) {
             <div className="flex-grow"></div>
             <p className="font-semibold text-4xl text-green-600 my-3">{formatearDinero(precio)}</p>
           </div>
-    
+
+          {botonAgregar && (
           <button 
             onClick={() => {
               handleClickModal()
-              handleSetProducto(props.producto)
+              handleSetProducto(producto)
             }}
             className='bg-green-600 hover:bg-green-800 text-white font-medium w-full mt-auto p-1.5 rounded-md'>
               Agregar
             </button>
+          )}
+
+          {botonDisponible && (
+            <button 
+            onClick={() => handleClickProductoAgotado(producto.id) }
+            className='bg-green-600 hover:bg-green-800 text-white font-medium w-full mt-auto p-1.5 rounded-md'>
+              Producto agotado
+            </button>
+          )}
         </div>
       </>
     )

@@ -106,6 +106,32 @@ const DrinksProvider = ({children}) => {
         }
     }
 
+    const handleClickCompletarPedido = async id => {
+        const token = localStorage.getItem('AUTH_TOKEN')
+        try {
+            await clienteAxios.put(`/api/pedidos/${id}`, null, {
+                headers: {
+                    Authorization: `Bearer ${token}`
+                }
+            })  
+        } catch (error) {
+            console.log(error)
+        }
+    }
+
+    const handleClickProductoAgotado = async id => {
+        const token = localStorage.getItem('AUTH_TOKEN')
+        try {
+            await clienteAxios.put(`/api/productos/${id}`, null, {
+                headers: {
+                    Authorization: `Bearer ${token}`
+                }
+            })  
+        } catch (error) {
+            console.log(error)
+        }
+    }
+
     return (
         <DrinksContext.Provider
             value={{
@@ -121,7 +147,9 @@ const DrinksProvider = ({children}) => {
                 handleEditarCantidad,
                 handleEliminarProductoPedido,
                 total,
-                handleSubmitNuevaOrden
+                handleSubmitNuevaOrden,
+                handleClickCompletarPedido,
+                handleClickProductoAgotado
             }}
             
         >{children}</DrinksContext.Provider>

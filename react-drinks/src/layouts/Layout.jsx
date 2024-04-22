@@ -34,7 +34,6 @@ export default function Layout() {
         </main>
 
         <Resumen />
-
       </div>
 
       <Modal isOpen={modal} style={customStyles}>
